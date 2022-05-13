@@ -1,0 +1,51 @@
+.add-list {
+    user-select: none;
+    &__popup {
+        width: 240px;
+        height: 150px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 6px 10px rgba(0,0,0,0.5);
+        padding: 18px;
+        position: relative;
+        top: -25px;
+        left: 8px;
+
+        &-close-btn {
+            position: absolute;
+            right: -9px;
+            top: -9px;
+            cursor: pointer;
+        }
+
+        &-colors {
+            margin-top: 14px;
+            display: flex;
+            justify-content: space-between;    
+            
+            .badge {
+                cursor: pointer;
+                width: 17px;
+                height: 17px;
+                margin-right: 5px;
+                position: static;
+                left: 0;
+                border: 2px solid transparent;
+    
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                &.active {
+                    border: 2px solid #515151;
+                }
+            }
+        }
+        
+
+        .button {
+            width: 100%;
+        }
+
+    }
+}

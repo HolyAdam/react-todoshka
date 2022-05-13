@@ -1,0 +1,171 @@
+{
+  "lists": [
+    {
+      "name": "adsddwe",
+      "colorId": 2,
+      "id": 8
+    },
+    {
+      "name": "Хехехе",
+      "colorId": 3,
+      "id": 9
+    },
+    {
+      "name": "dsf",
+      "colorId": 3,
+      "id": 10
+    },
+    {
+      "name": "12",
+      "colorId": 7,
+      "id": 11
+    },
+    {
+      "name": "222",
+      "colorId": 8,
+      "id": 12
+    },
+    {
+      "name": "asd",
+      "colorId": 3,
+      "id": 13
+    },
+    {
+      "name": "sddf",
+      "colorId": 4,
+      "id": 14
+    },
+    {
+      "name": "dfs",
+      "colorId": 4,
+      "id": 15
+    },
+    {
+      "name": "sd",
+      "colorId": 6,
+      "id": 16
+    }
+  ],
+  "tasks": [
+    {
+      "completed": false,
+      "listId": 8,
+      "text": "asda",
+      "id": 21
+    },
+    {
+      "completed": false,
+      "listId": 8,
+      "text": "asd",
+      "id": 23
+    },
+    {
+      "completed": false,
+      "listId": 8,
+      "text": "asd",
+      "id": 24
+    },
+    {
+      "completed": false,
+      "listId": 8,
+      "text": "sdfsd",
+      "id": 25
+    },
+    {
+      "completed": false,
+      "listId": 8,
+      "text": "sd",
+      "id": 28
+    },
+    {
+      "completed": false,
+      "listId": 8,
+      "text": "sd",
+      "id": 29
+    },
+    {
+      "completed": false,
+      "listId": 8,
+      "text": "sdf",
+      "id": 30
+    },
+    {
+      "completed": false,
+      "listId": 9,
+      "text": "sdfs",
+      "id": 33
+    },
+    {
+      "completed": false,
+      "listId": 10,
+      "text": "sdf",
+      "id": 35
+    },
+    {
+      "completed": false,
+      "listId": 15,
+      "text": "sfd",
+      "id": 36
+    },
+    {
+      "completed": false,
+      "listId": 15,
+      "text": "sfd",
+      "id": 37
+    },
+    {
+      "completed": false,
+      "listId": 16,
+      "text": "fdfgdfg",
+      "id": 38
+    },
+    {
+      "completed": false,
+      "listId": 11,
+      "text": "sdf",
+      "id": 39
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#C9D1D3",
+      "name": "grey"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883",
+      "name": "green"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED",
+      "name": "blue"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC",
+      "name": "pink"
+    },
+    {
+      "id": 5,
+      "hex": "#B6E6BD",
+      "name": "lime"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5",
+      "name": "purple"
+    },
+    {
+      "id": 7,
+      "hex": "#110133",
+      "name": "black"
+    },
+    {
+      "id": 8,
+      "hex": "#FF6464",
+      "name": "red"
+    }
+  ]
+}

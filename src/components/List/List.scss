@@ -1,0 +1,88 @@
+.list {
+    margin-bottom: 30px;
+    $self: &;
+
+
+    li {
+        display: flex;
+        align-items: center;
+        padding: 10px 12px;
+        cursor: pointer;
+
+        &:hover #{$self}__remove {
+          opacity: 0.35;
+        }
+        
+        #{$self}__remove:hover {
+          opacity: 0.7;
+        }
+
+
+        &:hover {
+          background-color: #ddd;
+        }
+
+        &.list-add {
+          span {
+            color: #757575
+          }
+
+          svg {
+
+            &.plus-icon {
+              path {
+                stroke: #757575
+              }
+            }
+
+          }
+
+          &:hover {
+            svg {
+
+              &.plus-icon {
+                path {
+                  stroke: #000
+                }
+              }
+  
+            }
+
+            span {
+              color: #000
+            }
+
+          }
+
+        }
+  
+        &.active {
+          background-color: #fff;
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+          border-radius: 4px;
+        }
+  
+        span {
+          display: inline-block;
+          flex: 1;
+          text-overflow: ellipsis;
+          overflow: hidden; 
+          width: 160px; 
+          white-space: nowrap;
+          
+        }
+  
+        svg {
+          margin-right: 8px;
+          path {
+            fill: #7f7f7f;
+            
+          }
+        }
+      }
+
+  &__remove {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+}
